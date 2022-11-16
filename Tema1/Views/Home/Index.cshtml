@@ -1,0 +1,87 @@
+﻿@model Tema1.VModels.RezervarVm
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bine ati venit!</h1>
+    <h3>Alegeti-va piesa de teatru dorit si faceti-va o rezervare</h3>
+</div>
+
+    <form asp-action="Index" asp-controller="Home">
+        <div class="form-group">
+            <label asp-for="TeatruAles" class="control-label"></label>
+            <select id="select-teatru" asp-for="TeatruAles" class="form-control" asp-items="@(new SelectList(@Model.Teatre, "Value", "Name"))"></select>
+            <span asp-validation-for="TeatruAles" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PiesaAleasa" class="control-label"></label>
+            <select id="select-piesa" asp-for="PiesaAleasa" class="form-control" asp-items="@(new SelectList(@Model.Piese, "Value", "Name"))"></select>
+            <span asp-validation-for="PiesaAleasa" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="OrarAles" class="control-label"></label>
+            <select id="select-orar" asp-for="OrarAles" class="form-control" asp-items="@(new SelectList(@Model.Orare, "Value", "Name"))"></select>
+            <span asp-validation-for="OrarAles" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" type="email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Nume" class="control-label"></label>
+            <input asp-for="Nume" class="form-control" />
+            <span asp-validation-for="Nume" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Prenume" class="control-label"></label>
+            <input asp-for="Prenume" class="form-control" />
+            <span asp-validation-for="Prenume" class="text-danger"></span>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="Student" class="control-label"></label>
+                    <input id="student" type="checkbox" asp-for="Student" class="form-control"  />
+                    <span asp-validation-for="Student" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="Pensionar" class="control-label"></label>
+                    <input Style="text-align: left" id="pensionar" type="checkbox" asp-for="Pensionar" class="form-control" />
+                    <span asp-validation-for="Pensionar" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label asp-for="PretFinal" class="control-label"></label>
+            <input id="Pret" readonly asp-for="PretFinal" class="form-control" />
+            <input id="PretIntegral" hidden readonly asp-for="PretInitial" class="form-control" />
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <input type="submit" class="btn btn-outline-dark" value="Finalizeaza Rezervarea"/>
+                </div>
+            </div>
+
+            <div class="col">
+               <div class="form-group">
+                    <div class="btn btn-outline-dark" id="curatare">Curatare date</div>
+                </div>
+            </div>
+        </div>
+
+    </form>

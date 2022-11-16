@@ -1,0 +1,134 @@
+<Rezervari>
+  <Rezervare>
+    <RezervareId xmlns="fec18958-abe6-41dc-8254-2e322ed47c21" />
+    <Nume xmlns="Apostol" />
+    <Prenume xmlns="Ruxandra" />
+    <Email xmlns="ruxandra.apostol1@gmail.com" />
+    <Student xmlns="True" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul National „Ion Luca Caragiale”" />
+    <Piesa xmlns="Jubileul unei banci private" />
+    <Data xmlns="11/30/2022 7:00:00 PM" />
+    <Pret xmlns="75" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="045713b9-5040-4d4e-b1b9-382749a01083" />
+    <Nume xmlns="Balaceanu" />
+    <Prenume xmlns="Elena" />
+    <Email xmlns="BalaceanuElena@yahoo.com" />
+    <Student xmlns="False" />
+    <Pensionar xmlns="True" />
+    <Teatru xmlns="Teatrul Tandarica" />
+    <Piesa xmlns="Degetica" />
+    <Data xmlns="10/27/2022 8:00:00 PM" />
+    <Pret xmlns="150" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="94e0f406-e8b3-40e2-9a35-38f947d21205" />
+    <Nume xmlns="Balaceanu" />
+    <Prenume xmlns="Elena" />
+    <Email xmlns="BalaceanuElena@yahoo.com" />
+    <Student xmlns="False" />
+    <Pensionar xmlns="True" />
+    <Teatru xmlns="Teatrul Tandarica" />
+    <Piesa xmlns="Jack si vrejul de fasole" />
+    <Data xmlns="12/5/2022 6:30:00 PM" />
+    <Pret xmlns="100" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="6eb78eaf-f7be-4273-b33e-6076bf7ee5a3" />
+    <Nume xmlns="Popescu" />
+    <Prenume xmlns="Marian" />
+    <Email xmlns="marian.popescu@gmail.ro" />
+    <Student xmlns="False" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul Bulandra" />
+    <Piesa xmlns="Dineu cu prosti" />
+    <Data xmlns="10/29/2022 8:00:00 PM" />
+    <Pret xmlns="150" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="0487dc09-5467-4ec2-b064-6a67366ba253" />
+    <Nume xmlns="Apostol" />
+    <Prenume xmlns="Constantin" />
+    <Email xmlns="constantin.apostol1@gmail.com" />
+    <Student xmlns="False" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul Masca" />
+    <Piesa xmlns="Prima intalnire" />
+    <Data xmlns="11/17/2022 9:00:00 PM" />
+    <Pret xmlns="100" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="8c0529c4-b4db-4a0f-9fef-7532f904f007" />
+    <Nume xmlns="Popescu" />
+    <Prenume xmlns="Marian" />
+    <Email xmlns="marian.popescu@gmail.ro" />
+    <Student xmlns="True" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul Masca" />
+    <Piesa xmlns="Prima intalnire" />
+    <Data xmlns="10/27/2022 9:00:00 PM" />
+    <Pret xmlns="90" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="50546212-403c-4dc5-b881-87c1b31dddf6" />
+    <Nume xmlns="Andronache" />
+    <Prenume xmlns="Anca" />
+    <Email xmlns="anca@gmail.ro" />
+    <Student xmlns="True" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul National „Ion Luca Caragiale”" />
+    <Piesa xmlns="Gaitele" />
+    <Data xmlns="11/1/2022 5:00:00 PM" />
+    <Pret xmlns="112.5" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="6bcb4b0a-844b-4a8d-9598-b695957dae4a" />
+    <Nume xmlns="Apostol" />
+    <Prenume xmlns="Ruxandra" />
+    <Email xmlns="ruxandra.apostol@gmail.com" />
+    <Student xmlns="True" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul Stela Popescu" />
+    <Piesa xmlns="Praf de stele" />
+    <Data xmlns="11/18/2022 8:30:00 PM" />
+    <Pret xmlns="112.5" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="d8dd02bc-1a57-43e1-8a2e-c42b3ccd57e8" />
+    <Nume xmlns="Popescu" />
+    <Prenume xmlns="Marian" />
+    <Email xmlns="marian.popescu@gmail.ro" />
+    <Student xmlns="True" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul Masca" />
+    <Piesa xmlns="Iona" />
+    <Data xmlns="11/10/2022 6:30:00 PM" />
+    <Pret xmlns="60" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="75b83c62-2288-4294-8a93-d543e3f3f90c" />
+    <Nume xmlns="Apostol" />
+    <Prenume xmlns="Voica" />
+    <Email xmlns="voica.apostol@cnmv.ro" />
+    <Student xmlns="False" />
+    <Pensionar xmlns="False" />
+    <Teatru xmlns="Teatrul National „Ion Luca Caragiale”" />
+    <Piesa xmlns="Jubileul unei banci private" />
+    <Data xmlns="11/30/2022 7:00:00 PM" />
+    <Pret xmlns="100" />
+  </Rezervare>
+  <Rezervare>
+    <RezervareId xmlns="45578667-01cf-48ab-9f45-eb84294da383" />
+    <Nume xmlns="Popescu" />
+    <Prenume xmlns="Marian" />
+    <Email xmlns="marian.popescu@gmail.ro" />
+    <Student xmlns="False" />
+    <Pensionar xmlns="True" />
+    <Teatru xmlns="Teatrul National „Ion Luca Caragiale”" />
+    <Piesa xmlns="Jubileul unei banci private" />
+    <Data xmlns="11/30/2022 7:00:00 PM" />
+    <Pret xmlns="100" />
+  </Rezervare>
+</Rezervari>
